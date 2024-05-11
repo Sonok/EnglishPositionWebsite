@@ -1,0 +1,83 @@
+/* General Body Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Unified modern font for clean appearance */
+    background-color: #f4f4f4; /* Soft gray background that is easy on the eyes */
+    color: #333; /* Dark gray text for good contrast and readability */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6; /* Improved line height for better text readability */
+}
+
+/* Header and Footer */
+header, footer {
+    background-color: #0277bd; /* Deep blue for a professional and engaging look */
+    color: #ffffff; /* White text for high contrast and legibility */
+    padding: 25px 50px; /* Ample padding for a spacious layout */
+    text-align: center;
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Elegant, readable font */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Enhanced shadow for 3D effect */
+    transition: all 0.3s ease; /* Smooth transition for all hover effects */
+}
+
+header:hover, footer:hover {
+    background-color: #01579b; /* Darker shade of blue on hover for interactive feedback */
+}
+
+/* Typography enhancements for headers and paragraphs */
+header h1, footer p {
+    margin: 0 0 15px; /* Adjusted margin for optimal spacing */
+    font-weight: 300; /* Lighter font-weight for a modern, airy feel */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.05); /* Subtle text shadow for depth */
+}
+
+header p {
+    font-size: 18px; /* Increased font size for better readability */
+    opacity: 0.85; /* Slightly reduced opacity for a softer look */
+    max-width: 900px; /* Extended max width for better line management */
+    margin: 0 auto 20px; /* Auto margins for horizontal centering, increased bottom margin */
+    padding: 0 20px; /* Padding to ensure text does not touch the edges */
+}
+
+/* Navigation Bar Styling */
+nav {
+    background: #0a9396; /* Refreshing teal for a vibrant look */
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 10px; /* Reduced horizontal padding for tighter navigation */
+    box-shadow: 0 3px 5px rgba(0,0,0,0.2); /* More prominent shadow for depth */
+}
+
+nav a {
+    color: #ffffff;
+    margin: 0 25px; /* Increased spacing between links for easier navigation */
+    text-decoration: none;
+    font-size: 1.2em; /* Larger font size for better visibility */
+    font-weight: bold; /* Bold text for emphasis */
+    transition: color 0.3s ease-out; /* Refined transition effect */
+}
+
+nav a:hover {
+    color: #caf0f8; /* Lighter blue on hover for a subtle interactive effect */
+    text-decoration: underline; /* Underline on hover for clear navigation feedback */
+}
+
+/* Section Styling for Content Areas */
+section {
+    margin: 25px 20px; /* Adjusted margins for consistent spacing */
+    padding: 25px; /* Increased padding for a roomier section */
+    background-color: #ffffff; /* Clear white background for content focus */
+    border-radius: 10px; /* Rounded corners for a softer look */
+    box-shadow: 0 5px 10px rgba(0,0,0,0.12); /* More nuanced shadow for subtle depth */
+}
+
+section:hover {
+    box-shadow: 0 8px 15px rgba(0,0,0,0.18); /* Larger shadow on hover for dynamic interaction */
+}
+
+/* Article Styling within Sections */
+article {
+    margin-bottom: 30px; /* Increased bottom margin for better separation between articles */
+    padding: 10px; /* Padding inside articles for nested content structure */
+    border-left: 5px solid #0277bd; /* Added a left border for visual interest */
+    background-color: #f8f9fa; /* Lighter background for articles to distinguish from section */
+}
